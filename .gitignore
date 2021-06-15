@@ -1,5 +1,5 @@
 file*.txt 
-genome.gtf
+*.gtf
 test.paired_end.sorted.bam
 *.out
-counts.txt*
+counts.txt* 
