@@ -6,9 +6,7 @@
 #SBATCH --mem=8G
 #SBATCH --partition=normal
 #SBATCH --time=30:00
-#SBATCH --mail-user=hxf190002@utdallas.edu
 
-#SBATCH --mail-type=ALL
 
 ml load subread
-featureCounts -t exon -g gene_id -a sars.gtf -o counts.txt test.paired_end.sorted.bam
+featureCounts -t gene -g gene_id -a sars_genome.gtf -o countscov.txt test.paired_end.sorted.bam

@@ -2,4 +2,6 @@ file*.txt
 *.gtf
 test.paired_end.sorted.bam
 *.out
-counts.txt* 
+cov.counts.txt.txt* 
+countscov.txt
+countscov.txt.summary
